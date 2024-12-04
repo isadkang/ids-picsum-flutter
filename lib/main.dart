@@ -14,6 +14,9 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'IDS Flutter',
+      theme: ThemeData(
+        fontFamily: 'Inter',
+      ),
       debugShowCheckedModeBanner: false,
       getPages: AppPages.routes,
       home: const HomePage(),

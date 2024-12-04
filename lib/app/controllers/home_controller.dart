@@ -17,7 +17,7 @@ class HomeController extends GetxController {
   Future<void> getPictures() async {
     isLoading(true);
     try {
-      final data = await _pictureService.getPictures(2, 3);
+      final data = await _pictureService.getPictures(10, 10);
       pictureList.value = data;
     } catch (e) {
       Get.snackbar('Error', e.toString());

@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:ids_flutter/constant/core.dart';
 
 class DetailPage extends StatelessWidget {
   const DetailPage({super.key});

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ids_flutter/app/pages/home_page.dart';
+// import 'package:ids_flutter/app/pages/home_page.dart';
 import 'package:ids_flutter/app/routes/app_pages.dart';
+import 'package:ids_flutter/constant/splash_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -19,7 +20,7 @@ class MainApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       getPages: AppPages.routes,
-      home: const HomePage(),
+      home: const SplashScreen(),
     );
   }
 }

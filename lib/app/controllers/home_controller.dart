@@ -1,6 +1,4 @@
-import 'package:get/get.dart';
-import 'package:ids_flutter/app/routes/app_pages.dart';
-import 'package:ids_flutter/app/services/picture_service.dart';
+import 'package:ids_flutter/constant/core.dart';
 
 class HomeController extends GetxController {
   final PictureService _pictureService = PictureService();
